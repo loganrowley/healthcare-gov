@@ -1,18 +1,28 @@
 .header-link {
-    background: #eee;
     display: block;
     color: #0e70b4;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 700;
     padding: 0 6px;
-    text-transform: uppercase;
     width: 106px;
     margin-top: 0 !important;
     text-align: center;
     line-height: 24px;
 }
 
-.header-link a:hover {
+.login {
+  font-size: 16px;
+}
+
+.login:hover {
+  background: #eee;
+}
+
+.lang-es {
+  background: #eee;
+}
+
+.lang-es:hover {
   color: #eee;
-  background: #0e70b4;
+  background-color: #0e70b4;
 }
