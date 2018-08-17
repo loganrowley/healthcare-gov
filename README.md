@@ -1,3 +1,36 @@
+# Doctor Lookup
+##### Doctor Lookup App
+
+#### By Jean Jia, 08/17/2018
+
+## Description
+
+This is a website where users may search information for healthcare insurance and how to apply.
+
+## Technologies Used
+
+Application: JavaScript, Angular
+
+## Support and Contact
+
+For any questions or support details, please email:
+jean84646@gmail.com
+
+## Spec
+
+* Include a navigation bar for user to select the information they would like to find out.
+* navigation bar should have information about how to apply, types of plans, other related topics, and answer to FAQs.
+* Include a search function for user.
+* Allow user to select health insurance by state.
+* Display 2017 exemptions, plans and prices, find agent for help, and find local help.
+* Include resources and contact information. 
+
+### Legal
+
+Copyright (c) 2018 **Jean Jia**
+
+This software is licensed under the MIT license.
+
 # HealthcareGov
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
