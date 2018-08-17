@@ -1,5 +1,5 @@
-# Doctor Lookup
-##### Doctor Lookup App
+# HealthCare.gov
+##### HealthCare.gov Website
 
 #### By Jean Jia, 08/17/2018
 
@@ -23,7 +23,7 @@ jean84646@gmail.com
 * Include a search function for user.
 * Allow user to select health insurance by state.
 * Display 2017 exemptions, plans and prices, find agent for help, and find local help.
-* Include resources and contact information. 
+* Include resources and contact information.
 
 ### Legal
 
