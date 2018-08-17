@@ -1,3 +1,8 @@
 .nav-bar-bg {
   background: #046791;
 }
+
+.bars {
+  list-style: none;
+  display: inline-block;
+}
