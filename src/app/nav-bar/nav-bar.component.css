@@ -2,10 +2,12 @@
   background: #046791;
   height: 65px;
   font-family: sans-serif;
+  border-bottom: 4px solid #035c82;
 }
 
-.nav-btns ul {
-  margin-left: 100%;
+.nav-btns {
+  margin-left: 5%;
+  width: 90%;
 }
 
 .nav-btns li {
@@ -16,8 +18,8 @@
 a {
   color: #eee;
   font-size: 18px;
-  padding: 10px;
-  margin: 10px;
+  padding: 7px 17px 7px 17px;
+  margin: 8px;
 }
 
 a:focus {
@@ -30,8 +32,8 @@ a:hover {
 }
 
 input {
-  margin-right: 0px;
   padding: 5px;
+  margin-left: 170px;
 }
 
 button {
@@ -39,5 +41,4 @@ button {
   background: #063346;
   border: none;
   padding: 8px 20px 8px 20px;
-  margin-left: 0px;
 }
