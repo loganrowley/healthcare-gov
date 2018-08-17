@@ -1,8 +1,43 @@
 .nav-bar-bg {
   background: #046791;
+  height: 65px;
+  font-family: sans-serif;
 }
 
-.bars {
+.nav-btns ul {
+  margin-left: 100%;
+}
+
+.nav-btns li {
   list-style: none;
   display: inline-block;
+}
+
+a {
+  color: #eee;
+  font-size: 18px;
+  padding: 10px;
+  margin: 10px;
+}
+
+a:focus {
+  background: #063346;
+}
+
+a:hover {
+  color: #063346;
+  background: #eee;
+}
+
+input {
+  margin-right: 0px;
+  padding: 5px;
+}
+
+button {
+  color: #eee;
+  background: #063346;
+  border: none;
+  padding: 8px 20px 8px 20px;
+  margin-left: 0px;
 }
