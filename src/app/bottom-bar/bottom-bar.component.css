@@ -2,5 +2,14 @@
   background: #17415f;
   color: #fff;
   text-align: center;
-  height: 255px;
+  height: 250px;
+}
+
+.actionbar-btn {
+  margin: 15px 0 10px;
+  background: #0a5c87;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px 25px;
+  border: none;
 }
