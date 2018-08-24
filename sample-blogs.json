@@ -1,0 +1,10 @@
+{ "blogs": [{
+    "date": "August 23",
+    "description": "Heading back to school? See student health insurance options",
+    "id": "1"
+    }, {
+    "date": "August 16",
+    "description": "3 ways to use your health plan when you’re feeling well",
+    "id": "2"
+  }]
+}
