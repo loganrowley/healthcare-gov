@@ -11,6 +11,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { ActionBarComponent } from './action-bar/action-bar.component';
 import { ImgTransitionComponent } from './img-transition/img-transition.component';
 import { FooterComponent } from './footer/footer.component';
+import { NewsBarComponent } from './news-bar/news-bar.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -26,7 +27,8 @@ export const firebaseConfig = {
     NavBarComponent,
     ActionBarComponent,
     ImgTransitionComponent,
-    FooterComponent
+    FooterComponent,
+    NewsBarComponent
   ],
   imports: [
     BrowserModule
