@@ -4,7 +4,6 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
-import { BottomBarComponent } from './bottom-bar/bottom-bar.component';
 import { ActionBarComponent } from './action-bar/action-bar.component';
 
 
@@ -12,7 +11,6 @@ import { ActionBarComponent } from './action-bar/action-bar.component';
   declarations: [
     AppComponent,
     NavBarComponent,
-    BottomBarComponent,
     ActionBarComponent
   ],
   imports: [
