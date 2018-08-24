@@ -1,0 +1,19 @@
+.row {
+  color: #FFF;
+  background-color: #0d76ad;
+}
+
+#email-btn {
+  color: #FFF;
+  background-color: #063346;
+  font-weight: bold;
+  border: none;
+}
+
+.col-md-5 {
+
+}
+
+#blog-news li{
+  list-style-type: none;
+}

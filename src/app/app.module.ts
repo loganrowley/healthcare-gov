@@ -31,10 +31,10 @@ export const firebaseConfig = {
     NewsBarComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
     FormsModule,
     HttpModule,
-    routing,
+    routing
   ],
   providers: [],
   bootstrap: [AppComponent]
