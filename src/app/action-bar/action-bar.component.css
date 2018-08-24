@@ -5,11 +5,19 @@
   height: 250px;
 }
 
+p {
+  padding-top: 50px;
+}
+
 .actionbar-btn {
-  margin: 15px 0 10px;
+  margin: 25px 0px 90px;
   background: #0a5c87;
   color: #fff;
   text-transform: uppercase;
   padding: 10px 25px;
   border: none;
+}
+
+.col-md-3:hover {
+  background-color: #254c68;
 }

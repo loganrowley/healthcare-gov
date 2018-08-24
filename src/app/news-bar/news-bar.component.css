@@ -1,17 +1,21 @@
 .row {
   color: #FFF;
+  font-family: "Open Sans",sans-serif;
   background-color: #0d76ad;
 }
 
-#email-btn {
+.news-bar-btn {
   color: #FFF;
   background-color: #063346;
-  font-weight: bold;
   border: none;
 }
 
 .col-md-5 {
+  background-color: #04689b;
+}
 
+a {
+  color: #FFF;
 }
 
 #blog-news li{
