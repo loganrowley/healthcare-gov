@@ -3,9 +3,16 @@
     <h3>GET IMPORTANT NEWS & UPDATES</h3>
     <p>Sign up for email and text updates to get deadline reminders and other important information.</p>
     <form class="" action="index.html" method="post">
-      <input type="text" id="email">
-      <button type="submit" class="news-bar-btn">SIGN UP</button>
+      <input #newEmail>
+      <button (click)="submitForm(newEmail.value); newTitle.value='';">SIGN UP</button>
     </form>
+
+    <div *ngFor="let subscription of subscriptions | async">
+      <div>
+        <p>{{subscription.email}}<p>
+      </div>
+    </div>
+
   </div>
   <div class="col-md-5">
     <h3><a href="#">HEALTHCARE.GOV BLOG</a></h3>

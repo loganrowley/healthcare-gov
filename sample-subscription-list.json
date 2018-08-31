@@ -1,0 +1,11 @@
+{ "subscriptions": [{
+    "email": "test111@email.com",
+    "id": "1"
+    }, {
+    "email": "test222@email.com",
+    "id": "2"
+      }, {
+    "email": "test333@email.com",
+    "id": "3"
+  }]
+}

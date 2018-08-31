@@ -12,6 +12,7 @@ import { ActionBarComponent } from './action-bar/action-bar.component';
 import { ImgTransitionComponent } from './img-transition/img-transition.component';
 import { FooterComponent } from './footer/footer.component';
 import { NewsBarComponent } from './news-bar/news-bar.component';
+import { AdminComponent } from './admin/admin.component';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -28,13 +29,16 @@ export const firebaseConfig = {
     ActionBarComponent,
     ImgTransitionComponent,
     FooterComponent,
-    NewsBarComponent
+    NewsBarComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
-    routing
+    routing,
+    AngularFireModule.initializeApp(firebaseConfig),
+    AngularFireDatabaseModule
   ],
   providers: [],
   bootstrap: [AppComponent]
