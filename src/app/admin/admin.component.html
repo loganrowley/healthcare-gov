@@ -1,5 +1,8 @@
-<div *ngFor="let subscription of subscriptions | async">
-  <div>
-    <p>{{subscription.email}}<p>
+<div class="email-list">
+  <h3>List of subscribed emails:</h3>
+  <div *ngFor="let subscription of subscriptions | async">
+    <div>
+      <p>{{subscription.email}}<p>
+    </div>
   </div>
 </div>

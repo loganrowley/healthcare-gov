@@ -24,8 +24,4 @@ export class NewsBarComponent implements OnInit {
     var newSubscription: Subscription = new Subscription(email);
     this.subscribeService.addSubscription(newSubscription);
   }
-  goToDetailPage(clickedAlbum) {
-    this.router.navigate(['subscriptions', clickedsubscription.$key]);
-  }
-
 }

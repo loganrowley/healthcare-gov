@@ -7,8 +7,11 @@
   <div class="col-md-1">
     <a href="#" class="btn header-link lang-es">Español</a>
   </div>
-  <div class="col-md-2">
+  <div class="col-md-1">
     <a href="#" class="btn header-link login">Log in</a>
+  </div>
+  <div class="col-md-1">
+    <a class="text-muted btn header-link login" routerLink="admin">Admin</a>
   </div>
 </div>
 
@@ -18,8 +21,4 @@
 <app-action-bar></app-action-bar>
 <app-news-bar></app-news-bar>
 <app-footer></app-footer>
-
-<div class="container">
-  <h1>{{ title }}</h1>
-  <router-outlet></router-outlet>
-</div>
+<router-outlet></router-outlet>
